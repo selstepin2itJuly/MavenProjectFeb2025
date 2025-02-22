@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="ICE HRM Suite Regression">
+  <test name="Login Test">
+   <groups>
+    <run>
+      <include name="Regression"/>
+      <!--<exclude name="Sanity"/>-->
+    </run>
+  </groups>
+    <classes>
+      <class name="testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Dashboard Test">
+   <groups>
+    <run>
+      <include name="Regression"/>
+      <!--<exclude name="Sanity"/>-->
+    </run>
+  </groups>
+    <classes>
+      <class name="testcases.DashboardTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Mulitpl Users Test">
+    <groups>
+    <run>
+      <include name="Regression"/>
+     <!-- <exclude name="Sanity"/>-->
+    </run>
+  </groups>
+    <classes>
+      <class name="testcases.VerifyMultupleUsers"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
