@@ -40,6 +40,9 @@ public class PMITest {
 	  Assert.assertTrue(dp.isLoggedInDisplayed());
   }
 
+  /*
+   * clean up after very testcase
+   */
   @AfterClass(alwaysRun=true)
   public void afterClass() throws IOException {
 	  dp.logout();
